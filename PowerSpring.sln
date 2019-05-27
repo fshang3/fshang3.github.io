@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerSpring", "PowerSpring.csproj", "{CA920678-DE0A-4D66-A42B-AC9F2743A519}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA920678-DE0A-4D66-A42B-AC9F2743A519}.Debug|x86.ActiveCfg = Debug|x86
+		{CA920678-DE0A-4D66-A42B-AC9F2743A519}.Debug|x86.Build.0 = Debug|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E2EE144-9B9D-4D19-B580-00F05EB820AE}
+	EndGlobalSection
+EndGlobal
