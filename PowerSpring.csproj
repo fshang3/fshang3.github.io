@@ -5,10 +5,14 @@
     <ProjectGuid>{CA920678-DE0A-4D66-A42B-AC9F2743A519}</ProjectGuid>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="Album.html" />
+    <Content Include="Content\album.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\scrolling-nav.css" />
     <Content Include="Content\Site.css" />
-    <Content Include="favicon.ico" />
+    <Content Include="Scripts\holder.min.js" />
+    <Content Include="Scripts\popper.min.js" />
+    <Content Include="src\favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
