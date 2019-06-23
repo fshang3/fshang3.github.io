@@ -1,0 +1,81 @@
+﻿<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Bootstrap core CSS -->
+		<link href="/src/css/bootstrap.css" rel="stylesheet" />
+		<!-- Custom styles for this template -->
+		<link href="/src/css/fellowship.css" rel="stylesheet" />
+		<title>Blessing Fellowship</title>
+	</head>
+	<body>
+		<header>
+			<div includeHTML="nav.html"></div>
+			<figure><img src="/src/img/BlessingFellowship/header.jpg"></figure>
+		</header>
+		<h1 class="warning">THIS SITE IS CURRENTLY MOBILE ONLY!!!</h1>
+		<h2 class="warning">reduice your browser width to view</h2>
+		<div class="content">
+			<div id="about">
+				<div id="about_en" lang="en">
+					<h3>About Us</h3>
+					<p>
+						God designed His Church to be a fellowship—not just a community, but a family of brothers and sisters who share God’s ideals and beliefs (Ephesians 2:19-22). 
+						Our Church brethren can help us improve ourselves—for “as iron sharpens iron, a friend sharpens a friend” (Proverbs 27:17, New Living Translation).
+					</p>				
+				</div>
+				<hr/>
+				<div id="about_ch" lang="zh-Hans">
+					<h3>关于我们</h3>
+					<p>
+						上帝设计他的教会是一个团契 - 不仅仅是一个社区，而是一个兄弟姐妹的家庭，他们分享上帝的理想和信仰（以弗所书2：19-22）。
+						我们的教会弟兄们可以帮助我们改善自己 - “因为铁使铁变得尖锐，朋友会使朋友变得更好”（箴言27：17，新生活翻译）。
+					</p>
+				</div>
+			</div>
+			
+			<div id="info" >
+				<h4>Time:</h4><span>Friday 6PM</span>
+				<h4>Location:</h4><span>1648 W 35TH ST, Chicago, IL 60609</span>
+			</div>
+			
+			<div id="events">
+				<h3>UpComing Events</h3>
+				<div id="calender">
+					<iframe id="calender-month" src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%237CB342&amp;ctz=America%2FChicago&amp;src=a29kOG5wMXM1MmZpMWpnZWw1cWxpZDg2NTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%237986CB&amp;showTitle=0&amp;showNav=1&amp;showDate=1&amp;showPrint=0&amp;showTabs=1&amp;showCalendars=0&amp;mode=MONTH" frameborder="0" scrolling="no"></iframe>
+					<iframe id="calender-week" src="https://calendar.google.com/calendar/embed?height=300&amp;wkst=1&amp;bgcolor=%237CB342&amp;ctz=America%2FChicago&amp;src=a29kOG5wMXM1MmZpMWpnZWw1cWxpZDg2NTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%237986CB&amp;showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;mode=AGENDA" frameborder="0" scrolling="no"></iframe>
+				</div>
+			</div>
+			
+			<div id="images">
+				<h3>Photos</h3>
+				
+				<a onclick="displayPrev()" class="btn" >&lt;</a>
+				<img id="cur-img" src="">
+				<a onclick="displayNext()" class="btn" >&gt;</a>
+				
+				<div width="100%"></div>
+				
+				<div id="img-nav">
+				
+				</div>
+			</div>
+		</div>
+	</body>
+	<footer>
+	</footer>
+	<!--load script-->
+	<script src="/src/js/fellowship/imglist.json"></script>
+	<script src="/src/js/popper.min.js"></script>
+	<script src="/src/js/holder.min.js"></script>
+	<script src="/src/js/jquery-3.3.1.js"></script>
+	<script src="/src/js/bootstrap.js"></script>
+	<script src="/src/js/importHTML.js"></script>
+	<script src="/src/js/fellowship/fellowship.js"></script>
+	
+	<script> 
+		includeHTML();
+	</script>
+</html>
+											
