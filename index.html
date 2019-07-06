@@ -11,17 +11,21 @@
 	
 	<!-- Stylesheets -->
 	
-	<link href="plugin-frameworks/bootstrap.css" rel="stylesheet">
+	<link href="src/css/bootstrap.css" rel="stylesheet">
 	
 	<link href="fonts/ionicons.css" rel="stylesheet">
 	
 		
-	<link href="common/styles.css" rel="stylesheet">
+	<link href="src/css/styles.css" rel="stylesheet">
 	
 	
 </head>
 <body>
-	
+	<audio autoplay loop>
+		<source src="horse.ogg" type="audio/ogg">
+		<source src="horse.mp3" type="audio/mpeg">
+			Your browser does not support the audio tag.
+	</audio>
 	<header >
 		<div class="bg-191" style = "display:none">
 			<div class="container">	
@@ -62,7 +66,7 @@
 			<a class="menu-nav-icon" data-menu="#main-menu" href="#"><i class="ion-navicon"></i></a>
 			
 			<ul class="main-menu" id="main-menu">
-				<li><a href="02_archive-page.html">ABOUT/关于</a></li>
+				<li><a href="BlessingFellowship/">ABOUT/关于</a></li>
 				<li class="drop-down"><a href="03_single-post.html">Rescource/资源<i class="ion-arrow-down-b"></i></a>
 					<ul class="drop-down-menu drop-down-inner">
 						<li><a href="#">PAGE 1</a></li>
@@ -446,7 +450,7 @@
 					
 				</div><!-- row -->
 			</div><!-- ptb-50 -->
-			
+			<template>
 			<div class="brdr-ash-1 opacty-2"></div>
 			
 			<div class="oflow-hidden color-ash font-9 text-sm-center ptb-sm-5">
@@ -466,18 +470,19 @@
 				</ul>
 				
 			</div><!-- oflow-hidden -->
+			<template>
 		</div><!-- container -->
 	</footer>
 	
 	<!-- SCIPTS -->
 	
-	<script src="plugin-frameworks/jquery-3.2.1.min.js"></script>
+	<script src="src/js/jquery-3.2.1.min.js"></script>
 	
-	<script src="plugin-frameworks/tether.min.js"></script>
+	<script src="src/js/tether.min.js"></script>
 	
-	<script src="plugin-frameworks/bootstrap.js"></script>
+	<script src="src/js/bootstrap.js"></script>
 	
-	<script src="common/scripts.js"></script>
+	<script src="src/js/scripts.js"></script>
 	
 </body>
 </html>

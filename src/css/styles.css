@@ -28,20 +28,22 @@
 footer a {
 	display:block;
 }
-
-
+.container {
+	flex-grow:1;
+	
+}
 
 
 /* ---------------------------------
 1. PRIMARY STYLES
 --------------------------------- */
 
-html{ font-size: 100%; overflow-x: hidden; width: 100%; margin: 0px;  padding: 0px; touch-action: manipulation; }
+html{ font-size: 100%; overflow-x: hidden; width: 100%; margin: 0px;  padding: 0px; touch-action: manipulation; min-height:100%;height:100% }
 
 
-body{ font-size: 14px; font-family: 'Encode Sans Expanded', sans-serif; width: 100%; height: 100%; margin: 0; font-weight: 400;
+body{ font-size: 14px; font-family: 'Encode Sans Expanded', sans-serif; width: 100%; min-height: 100%; height: 100%; margin: 0; font-weight: 400;
 	-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; word-wrap: break-word; 
-	overflow-x: hidden; color: #333; }
+	overflow-x: hidden; color: #333; display:flex; flex-direction:column; }
 
 h1, h2, h3, h4, h5, h6, p, a, ul, span, li, img, inpot, button{ margin: 0; padding: 0; }
 
@@ -105,6 +107,7 @@ textarea:focus{ outline-color: #F9B500; }
 @media only screen and (max-width: 575px) {
 
 	body{ font-size: 14px; }
+	.container{ width:100%;}
 	
 }
 
@@ -374,14 +377,14 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 
 .img-bg{ position: absolute; top: 0; bottom: 0; left: 0; right: 0; z-index: 1; }
 
-.bg-map{ background: url(../images/map.png) no-repeat center; background-size: cover; }
+.bg-map{ background: url(/images/map.png) no-repeat center; background-size: cover; }
 
-.bg-1{ background: url(../images/slider-1-1200x900.jpg) no-repeat center; background-size: cover; }
-.bg-2{ background: url(../images/slider-2-450x600.jpg) no-repeat center; background-size: cover; }
-.bg-3{ background: url(../images/slider-3-450x600.jpg) no-repeat center; background-size: cover; }
-.bg-4{ background: url(../images/slider-4-450x600.jpg) no-repeat center; background-size: cover; }
-.bg-5{ background: url(../images/slider-5-450x600.jpg) no-repeat center; background-size: cover; }
-.bg-6{ background: url(../images/slider-6-450x600.jpg) no-repeat center; background-size: cover; }
+.bg-1{ background: url(/images/slider-1-1200x900.jpg) no-repeat center; background-size: cover; }
+.bg-2{ background: url(/images/slider-2-450x600.jpg) no-repeat center; background-size: cover; }
+.bg-3{ background: url(/images/slider-3-450x600.jpg) no-repeat center; background-size: cover; }
+.bg-4{ background: url(/images/slider-4-450x600.jpg) no-repeat center; background-size: cover; }
+.bg-5{ background: url(/images/slider-5-450x600.jpg) no-repeat center; background-size: cover; }
+.bg-6{ background: url(/images/slider-6-450x600.jpg) no-repeat center; background-size: cover; }
 
 
 .bg-grad-layer-6:after{ content:''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; z-index: -1;
